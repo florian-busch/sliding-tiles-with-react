@@ -1,1 +1,1 @@
-Sliding Tiles Game with React
+Tile Sliding Game based on react and javascript
