@@ -1,0 +1,30 @@
+#app {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#input {
+  background-color: green;
+  margin-top: 30px;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  background-color: red;
+}
+
+.cell {
+  height: 80px;
+  width: 80px;
+  background-color: lightgrey;
+  border: solid 2px;
+}
+
+.cell:hover {
+  background-color: aliceblue;
+}
+
+#emptyTile {
+  background-color: white;
+}
