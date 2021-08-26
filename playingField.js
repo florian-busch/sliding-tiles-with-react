@@ -22,6 +22,7 @@ const checkIfSolvableAndUnordered = shuffledArray => {
     //create shuffled array
     if (shuffleState == true) {
       arrayWithNumbers.pop()
+      //Fisher-Yates-Shuffle
       for (let i = arrayWithNumbers.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [arrayWithNumbers[i], arrayWithNumbers[j]] = [arrayWithNumbers[j], arrayWithNumbers[i]];
